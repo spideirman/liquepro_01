@@ -37,8 +37,71 @@ h1, h2, h3, h4 {
 }
 
 /* Header Styles */
+/* Header styles */
 header {
+    background-color: #e0f2fe; /* Light blue background */
+}
+
+.hero {
+    text-align: center; /* Center align content within the hero section */
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #cfe2ff; /* Slightly darker blue for top bar */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D6EFD;
+}
+
+.nav-icons a {
+    margin: 0 10px;
+    color: #0D6EFD;
+}
+
+.hero-content {
+    padding: 40px 0; 
+}
+
+.hero-content h2 {
+    color: #343a40; /* Dark grey for heading */
+    margin-bottom: 20px;
+}
+
+.video-container {
     position: relative;
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto 30px;
+    background-color: #ccc; /* Placeholder background for now */
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:   
+ rgba(255, 255, 255, 0.7);
+    /* Add play icon using CSS or an image */
+}
+
+.hero-features {
+    background-color: #fff; /* White background for feature section */
+}
+
+.feature a {
+    color: #0D6EFD;
+    text-decoration: none;
 }
 
 .hero-video {
